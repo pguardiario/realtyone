@@ -1,0 +1,57 @@
+{
+  "office": {
+    "name": "Company - Edit me in config.json",
+    "address1": "192 E 1st St",
+    "address2": "Saint Louis, MO 12345"
+  },
+  "agents": [
+    {
+      "firstname": "Zackery",
+      "lastname": "Mraz",
+      "title": "Realtor",
+      "licenseNumber": "123456",
+      "phone": "599-408-9391",
+      "email": "zmraz32@gmail.com"
+    },
+    {
+      "firstname": "Maxwell",
+      "lastname": "Kirlin",
+      "title": "Realtor",
+      "licenseNumber": "456789",
+      "phone": "(694) 860-2645 x11132",
+      "email": "maxkirlin34@gmail.com"
+    }
+  ],
+  "testimonials": [
+    {
+      "user": "PG Themes",
+      "text": "Edit me in config.json"
+    },
+    {
+      "user": "This is a testimonial user",
+      "text": "Edit me in config.json"
+    },
+    {
+      "user": "Some Person",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce fermentum orci lobortis fermentum pellentesque. Maecenas nec arcu ac nulla sollicitudin gravida. Vivamus cursus, diam ut placerat lobortis, mi ante lobortis elit, id ullamcorper est felis id leo. In efficitur magna sit amet ipsum blandit, quis egestas lectus hendrerit. Nulla aliquam turpis vitae fringilla blandit. Phasellus fermentum bibendum nunc, eu accumsan sapien iaculis ut. Aliquam vulputate, nisi et malesuada pulvinar, leo diam commodo sapien, quis tincidunt mauris augue sed augue. Aliquam eu est eget massa aliquam feugiat. Maecenas placerat, nulla at porttitor pretium, augue nisl dignissim sem, sit amet hendrerit turpis mi in tortor. Aliquam eget erat commodo lorem vehicula rhoncus vel at mi. In nec nunc vel sapien commodo convallis. Praesent varius porta turpis, nec porta massa rutrum et."
+    },
+    {
+      "user": "Some Person",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce fermentum orci lobortis fermentum pellentesque. Maecenas nec arcu ac nulla sollicitudin gravida. Vivamus cursus, diam ut placerat lobortis, mi ante lobortis elit, id ullamcorper est felis id leo. In efficitur magna sit amet ipsum blandit, quis egestas lectus hendrerit. Nulla aliquam turpis vitae fringilla blandit. Phasellus fermentum bibendum nunc, eu accumsan sapien iaculis ut. Aliquam vulputate, nisi et malesuada pulvinar, leo diam commodo sapien, quis tincidunt mauris augue sed augue. Aliquam eu est eget massa aliquam feugiat. Maecenas placerat, nulla at porttitor pretium, augue nisl dignissim sem, sit amet hendrerit turpis mi in tortor. Aliquam eget erat commodo lorem vehicula rhoncus vel at mi. In nec nunc vel sapien commodo convallis. Praesent varius porta turpis, nec porta massa rutrum et."
+    },
+    {
+      "user": "Some Person",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce fermentum orci lobortis fermentum pellentesque. Maecenas nec arcu ac nulla sollicitudin gravida. Vivamus cursus, diam ut placerat lobortis, mi ante lobortis elit, id ullamcorper est felis id leo. In efficitur magna sit amet ipsum blandit, quis egestas lectus hendrerit. Nulla aliquam turpis vitae fringilla blandit. Phasellus fermentum bibendum nunc, eu accumsan sapien iaculis ut. Aliquam vulputate, nisi et malesuada pulvinar, leo diam commodo sapien, quis tincidunt mauris augue sed augue. Aliquam eu est eget massa aliquam feugiat. Maecenas placerat, nulla at porttitor pretium, augue nisl dignissim sem, sit amet hendrerit turpis mi in tortor. Aliquam eget erat commodo lorem vehicula rhoncus vel at mi. In nec nunc vel sapien commodo convallis. Praesent varius porta turpis, nec porta massa rutrum et."
+    },
+    {
+      "user": "Some Person",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce fermentum orci lobortis fermentum pellentesque. Maecenas nec arcu ac nulla sollicitudin gravida. Vivamus cursus, diam ut placerat lobortis, mi ante lobortis elit, id ullamcorper est felis id leo. In efficitur magna sit amet ipsum blandit, quis egestas lectus hendrerit. Nulla aliquam turpis vitae fringilla blandit. Phasellus fermentum bibendum nunc, eu accumsan sapien iaculis ut. Aliquam vulputate, nisi et malesuada pulvinar, leo diam commodo sapien, quis tincidunt mauris augue sed augue. Aliquam eu est eget massa aliquam feugiat. Maecenas placerat, nulla at porttitor pretium, augue nisl dignissim sem, sit amet hendrerit turpis mi in tortor. Aliquam eget erat commodo lorem vehicula rhoncus vel at mi. In nec nunc vel sapien commodo convallis. Praesent varius porta turpis, nec porta massa rutrum et."
+    }
+  ],
+  "teamname": "Zackery & Maxwell",
+  "state": "Missouri",
+  "linkedin": "https://www.linkedin.com/",
+  "yelp": "https://www.yelp.com/",
+  "zillow": "https://www.zillow.com/"
+
+}
