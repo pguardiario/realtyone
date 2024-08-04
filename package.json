@@ -1,15 +1,15 @@
 {
-	"name": "tailpress",
-	"version": "3.4.0",
+	"name": "realtyone",
+	"version": "1.0.3",
 	"description": "Boilerplate WordPress theme with Tailwind CSS.",
-	"author": "Jeffrey van Rossum",
+	"author": "P Guardiario",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/jeffreyvr/tailpress"
+		"url": "https://github.com/pguardiario/realtyone"
 	},
-	"theme_uri": "https://github.com/jeffreyvr/tailpress",
-	"author_uri": "https://vanrossum.dev",
-	"text_domain": "tailpress",
+	"theme_uri": "https://pguardiario/realtyone",
+	"author_uri": "https://github.com/pguardiario",
+	"text_domain": "realtyone",
 	"license": "MIT",
 	"scripts": {
 		"dev": "mix",
@@ -33,7 +33,6 @@
 		"tailwindcss": "^3.4.0"
 	},
 	"dependencies": {
-		"daisyui": "^4.12.10",
-		"swiper": "^11.1.8"
+		"daisyui": "^4.12.10"
 	}
 }
