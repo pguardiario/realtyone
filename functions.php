@@ -3,6 +3,7 @@
 /**
  * Theme setup.
  */
+
 function realtyone_setup()
 {
 	add_theme_support('title-tag');
@@ -42,9 +43,10 @@ add_action('after_setup_theme', 'realtyone_setup');
 function realtyone_enqueue_scripts()
 {
 	$theme = wp_get_theme();
+	$version="1.0.3";
 
-	wp_enqueue_style('realtyone', realtyone_asset('css/app.css'), array(), $theme->get('Version'));
-	wp_enqueue_script('realtyone', realtyone_asset('js/app.js'), array(), $theme->get('Version'));
+	wp_enqueue_style('realtyone', realtyone_asset('css/app.css'), array(), $version);
+	wp_enqueue_script('realtyone', realtyone_asset('js/app.js'), array(), $version);
 }
 
 add_action('wp_enqueue_scripts', 'realtyone_enqueue_scripts');

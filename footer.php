@@ -47,12 +47,12 @@ global $pgthemes;
 		</div>
 
 		<div class="w-full justify-around p-8 md:flex">
-			<a>Home</a>
-			<a>Bios</a>
-			<a>Portfolio</a>
-			<a>Listings</a>
-			<a>Sellers</a>
-			<a>Testimonials</a>
+			<a href="/">Home</a>
+			<a href="/bio">Bio</a>
+			<a href="/listings">Listings</a>
+			<a href="/buyers">Buyers</a>
+			<a href="/sellers">Sellers</a>
+			<a href="/testimonials">Testimonials</a>
 			<div class="flex items-center space-x-3 text-white">
 				<?php if($pgthemes['linkedin']) { ?>
 					<a href="<?php echo $pgthemes['linkedin']?>" target="_blank"
@@ -95,20 +95,8 @@ global $pgthemes;
 		</div>
 
 		<div class="space-y-6 p-8">
-			<p>All information is deemed reliable but not guaranteed and should be independently reviewed and verified.</p>
-			<p>The IDX display contains information sourced from the Northwest Multiple Listing Service. This data is intended
-				solely for personal, non-commercial use and is not to be utilized for any other purposes except to identify
-				potential properties for purchase. Although the MLS data displayed is typically considered reliable, it is not
-				guaranteed to be accurate by the MLS. Buyers are responsible for verifying the accuracy of all information and
-				are advised to conduct their own investigations or seek professional assistance. Other sources besides the
-				Listing Agent may have contributed to the MLS data presented. Unless expressly specified in writing, the
-				Broker/Agent has not confirmed any information obtained from external sources. The Broker/Agent may or may not
-				have acted as the Listing and/or Selling Agent and cannot guarantee the accuracy of property locations displayed
-				on any map. Any compensation offers are solely made to participants of the MLS where the listing is registered.
-			</p>
-			<hr />
 			<div class="flex items-center">
-				<p class="flex-1">Website designed and developed by PG Themes</p>
+				<p class="flex-1">Website designed and developed by <a href="mailto:pguardiario@gmail.com">PG Themes</a></p>
 				<p>Copyright © 2024</p>
 			</div>
 		</div>

@@ -277,6 +277,42 @@
     text-align: center;
     min-width: 4rem
 }
+.swap {
+    position: relative;
+    display: inline-grid;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+            user-select: none;
+    place-content: center;
+    cursor: pointer
+}
+.swap > * {
+    grid-column-start: 1;
+    grid-row-start: 1;
+    transition-duration: 300ms;
+    transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    transition-property: transform, opacity
+}
+.swap input {
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none
+}
+.swap .swap-on,
+.swap .swap-indeterminate,
+.swap input:indeterminate ~ .swap-on {
+    opacity: 0
+}
+.swap input:checked ~ .swap-off,
+.swap-active .swap-off,
+.swap input:indeterminate ~ .swap-off {
+    opacity: 0
+}
+.swap input:checked ~ .swap-on,
+.swap-active .swap-on,
+.swap input:indeterminate ~ .swap-indeterminate {
+    opacity: 1
+}
 .textarea {
     min-height: 3rem;
     flex-shrink: 1;
@@ -914,8 +950,14 @@
 .sticky {
     position: sticky
 }
+.left-0 {
+    left: 0px
+}
 .left-3 {
     left: 0.75rem
+}
+.right-0 {
+    right: 0px
 }
 .right-3 {
     right: 0.75rem
@@ -1032,8 +1074,14 @@
 .h-\[480px\] {
     height: 480px
 }
+.h-full {
+    height: 100%
+}
 .h-screen {
     height: 100vh
+}
+.min-h-\[600px\] {
+    min-height: 600px
 }
 .min-h-screen {
     min-height: 100vh
@@ -1108,6 +1156,9 @@
 }
 .items-center {
     align-items: center
+}
+.items-stretch {
+    align-items: stretch
 }
 .justify-center {
     justify-content: center
@@ -1348,8 +1399,11 @@
 .text-center {
     text-align: center
 }
+.font-sans {
+    font-family: "Noto Sans"
+}
 .font-serif {
-    font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif
+    font-family: "Noto Serif"
 }
 .text-2xl {
     font-size: 1.5rem;
@@ -1396,10 +1450,6 @@
 .leading-tight {
     line-height: 1.25
 }
-.text-black {
-    --tw-text-opacity: 1;
-    color: rgb(0 0 0 / var(--tw-text-opacity))
-}
 .text-blue-500 {
     --tw-text-opacity: 1;
     color: rgb(59 130 246 / var(--tw-text-opacity))
@@ -1423,6 +1473,10 @@
 .text-indigo-300 {
     --tw-text-opacity: 1;
     color: rgb(165 180 252 / var(--tw-text-opacity))
+}
+.text-slate-100 {
+    --tw-text-opacity: 1;
+    color: rgb(241 245 249 / var(--tw-text-opacity))
 }
 .text-slate-700 {
     --tw-text-opacity: 1;
@@ -1529,7 +1583,7 @@
     color: #4b5563
 }
 body {
-    font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"
+    font-family: "Noto Sans"
 }
 .wp-block {
     max-width: 1280px
@@ -1603,6 +1657,17 @@ body {
     }
 }
 @media (min-width: 960px) {
+    .lg\:absolute {
+        position: absolute
+    }
+    @media (min-width: 960px) {
+        .lg\:lg\:absolute {
+            position: absolute
+        }
+    }
+    .lg\:relative {
+        position: relative
+    }
     .lg\:-mx-4 {
         margin-left: -1rem;
         margin-right: -1rem
@@ -1635,8 +1700,14 @@ body {
     .lg\:items-center {
         align-items: center
     }
+    .lg\:items-stretch {
+        align-items: stretch
+    }
     .lg\:justify-between {
         justify-content: space-between
+    }
+    .lg\:overflow-hidden {
+        overflow: hidden
     }
     .lg\:bg-transparent {
         background-color: transparent
@@ -1662,12 +1733,18 @@ body {
         padding-left: 12rem;
         padding-right: 12rem
     }
-    .lg\:px-72 {
-        padding-left: 18rem;
-        padding-right: 18rem
-    }
     .lg\:text-5xl {
         font-size: 3rem;
         line-height: 1
+    }
+}
+@media (min-width: 1440px) {
+    .\32xl\:px-48 {
+        padding-left: 12rem;
+        padding-right: 12rem
+    }
+    .\32xl\:px-72 {
+        padding-left: 18rem;
+        padding-right: 18rem
     }
 }
